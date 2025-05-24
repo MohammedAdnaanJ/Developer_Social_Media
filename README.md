@@ -80,7 +80,7 @@ Watch the tutorial on [YouTube](https://youtu.be/_sSTzz13tVY).
 Run the following commands in your terminal:
 
 ```bash
-git clone https://github.com/machadop1407/social-media-vite-supabase.git
+git clone https://github.com/MohammedAdnaanJ/Developer_Social_Media.git
 cd social-media-tutorial
 ```
 
@@ -131,7 +131,7 @@ RETURNS TABLE (
 )
 LANGUAGE sql
 AS $$
-  SELECT 
+  SELECT
     p.id,
     p.title,
     p.content,
@@ -154,19 +154,3 @@ CREATE POLICY "Delete own vote" ON votes
 FOR DELETE
 USING (auth.uid()::text = user_id);
 ```
-
-## 🎨 Assets & More
-
-- **Tutorial Video:**  
-  [Watch on YouTube](https://youtu.be/_sSTzz13tVY)
-
-- **Design Inspiration & Assets:**  
-  Explore additional assets and design inspirations [here](https://drive.google.com/file/d/your-assets-link).
-
-## 🚀 More
-
-If you enjoyed this tutorial, check out our other projects and advanced courses to further improve your development skills.
-
----
-
-Happy coding and thanks for watching!
